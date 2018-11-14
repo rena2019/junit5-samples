@@ -27,14 +27,14 @@ class CalculatorTests {
 	}
 	@Test
 	@DisplayName("addsTwoNumbersF")
-	void addsTwoNumbers() {
+	void addsTwoNumbersF() {
 		Calculator calculator = new Calculator();
 		assertEquals(3, calculator.add(1, 1), "1 + 1 should equal 3");
 	}
 	
 	@Test
 	@DisplayName("addsTwoNumbersF2")
-	void addsTwoNumbers() {
+	void addsTwoNumbersF2() {
 		Calculator calculator = new Calculator();
 		assertEquals(4, calculator.add(1, 1), "1 + 1 should equal 4");
 	}
