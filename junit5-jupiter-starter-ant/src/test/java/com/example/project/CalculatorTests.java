@@ -25,6 +25,19 @@ class CalculatorTests {
 		Calculator calculator = new Calculator();
 		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	}
+	@Test
+	@DisplayName("addsTwoNumbersF")
+	void addsTwoNumbers() {
+		Calculator calculator = new Calculator();
+		assertEquals(3, calculator.add(1, 1), "1 + 1 should equal 3");
+	}
+	
+	@Test
+	@DisplayName("addsTwoNumbersF2")
+	void addsTwoNumbers() {
+		Calculator calculator = new Calculator();
+		assertEquals(4, calculator.add(1, 1), "1 + 1 should equal 4");
+	}
 
 	@ParameterizedTest(name = "{0} + {1} = {2}")
 	@CsvSource({
