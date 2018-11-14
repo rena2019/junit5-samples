@@ -34,7 +34,7 @@
 
     <!-- https://junit.org/junit5/docs/snapshot/user-guide/#running-tests-build-ant -->
     <target name="test.junit.launcher" depends="compile">
-        <junitlauncher haltOnFailure="true" printSummary="true">
+        <junitlauncher printSummary="true"><!-- haltOnFailure="true" -->
             <classpath refid="test.classpath"/>
             <testclasses outputdir="build/test-report">
                 <fileset dir="build/test">
