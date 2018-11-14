@@ -36,7 +36,7 @@ class CalculatorTests {
 	@DisplayName("addsTwoNumbersF2")
 	void addsTwoNumbersF2() {
 		Calculator calculator = new Calculator();
-		assertEquals(4, calculator.add(1, 1), "1 + 1 should equal 4");
+		assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
 	}
 
 	@ParameterizedTest(name = "{0} + {1} = {2}")
